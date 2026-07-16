@@ -87,12 +87,22 @@ def fetch_symbol(sym: str, retries: int = 3) -> pd.DataFrame:
     return pd.DataFrame()
 
 
-def resolve_fetch_ticker(t: str, hist: pd.DataFrame, ovr: pd.DataFrame) -> str:
-    """수집에 사용할 yahoo 티커: override alias > yf_ticker(rename 체인) > 원티커."""
+def resolve_fetch_candidates(t: str, hist: pd.DataFrame, ovr: pd.DataFrame) -> list:
+    """수집 후보 yahoo 티커 목록(순서대로 시도).
+    override alias(파이프 | 로 복수 지정 가능) > rename 체인 결과(yf_ticker)의 alias > yf_ticker."""
+    cands = []
     if t in ovr.index and ovr.loc[t, "yf_alias"]:
-        return ovr.loc[t, "yf_alias"]
-    yft = hist.loc[hist["ticker"] == t, "yf_ticker"].iloc[0]
-    return yft or t
+        cands += ovr.loc[t, "yf_alias"].split("|")
+    yft = hist.loc[hist["ticker"] == t, "yf_ticker"].iloc[0] or t
+    if yft in ovr.index and ovr.loc[yft, "yf_alias"]:
+        cands += ovr.loc[yft, "yf_alias"].split("|")
+    cands.append(yft)
+    seen, out = set(), []
+    for c in cands:
+        if c and c not in seen:
+            seen.add(c)
+            out.append(c)
+    return out
 
 
 def apply_validity(t: str, df: pd.DataFrame, ovr: pd.DataFrame) -> pd.DataFrame:
@@ -121,16 +131,32 @@ def main():
 
     frames = {}
     fetch_map = {}
+
+    def fetch_one(t):
+        """후보 심볼을 순서대로 시도, 첫 비어있지 않은 데이터 채택."""
+        for ysym in resolve_fetch_candidates(t, hist, ovr):
+            raw = fetch_symbol(ysym)
+            if not raw.empty:
+                return ysym, apply_validity(t, raw, ovr)
+        return resolve_fetch_candidates(t, hist, ovr)[0], pd.DataFrame()
+
     for i, t in enumerate(tickers, 1):
-        ysym = resolve_fetch_ticker(t, hist, ovr)
-        fetch_map[t] = ysym
-        df = fetch_symbol(ysym)
-        df = apply_validity(t, df, ovr)
-        frames[t] = df
-        if not df.empty:
-            df.to_parquet(PRICES / f"{t}.parquet")
+        fetch_map[t], frames[t] = fetch_one(t)
         if i % 20 == 0:
             print(f"  {i}/{len(tickers)} …")
+
+    # 재시도 패스: 빈 결과는 레이트리밋 등 일시 실패일 수 있음 (예: 활성 티커 HOLX가 0건)
+    empty1 = [t for t in tickers if frames[t].empty and t not in ovr.index[
+        (ovr["valid_from"] == "9999-01-01")].tolist()]
+    if empty1:
+        print(f"1차 결측 {len(empty1)}건 재시도 (30초 대기 후)…")
+        time.sleep(30)
+        for t in empty1:
+            fetch_map[t], frames[t] = fetch_one(t)
+
+    for t in tickers:
+        if not frames[t].empty:
+            frames[t].to_parquet(PRICES / f"{t}.parquet")
     for b in BENCH:
         df = fetch_symbol(b)
         safe = b.replace("=", "_")
@@ -189,8 +215,14 @@ def main():
     mon_df.to_csv(REPORTS / "cp2_coverage_monthly.csv", index=False)
 
     # ---- IPO 정합성 실측 재검증 (CP-1.1 체크 1 보강) ----
+    # 알려진 승계 갭 (유니버스 오류 아님; 데이터 부재로 결측 처리가 올바른 상태)
+    KNOWN_GAPS = {
+        "FOXA": "2013-06~2019-03 구간은 21세기폭스(舊 FOXA) 시대 — 현 yahoo FOXA(Fox Corp, 2019 상장)에 해당 이력 없음. 결측 인지 후 진행",
+    }
     ipo_flags = []
     for t in tickers:
+        if t in KNOWN_GAPS:
+            continue
         df = frames[t]
         if df.empty:
             continue
@@ -235,6 +267,7 @@ def main():
         lines += [f"- [P0] {t}: era 시작 {s} < 실측 최초 가격 {p} - 30일" for t, s, p in ipo_flags]
     else:
         lines.append("- 플래그 없음")
+    lines += [""] + [f"- [알려진 갭, 통과 처리] {t}: {msg}" for t, msg in KNOWN_GAPS.items()]
     lines += [
         "",
         "## 5. 티커 재사용/승계 처리 내역 (data_overrides.csv 적용)",
