@@ -1,0 +1,58 @@
+ticker,first_trade_date,note
+FB,2012-05-18,Facebook IPO
+TSLA,2010-06-29,Tesla IPO
+NXPI,2010-08-06,NXP IPO
+TRIP,2011-12-07,TripAdvisor spinoff (when-issued)
+KRFT,2012-10-01,Kraft Foods Group spinoff
+CTRX,2012-07-02,Catamaran ticker (SXC Health rename; predecessor listed earlier)
+FANG,2012-10-12,Diamondback IPO
+SPLK,2012-04-19,Splunk IPO
+ENPH,2012-03-30,Enphase IPO
+WDAY,2012-10-12,Workday IPO (NYSE; later Nasdaq transfer)
+PANW,2012-07-20,Palo Alto Networks IPO (NYSE; Nasdaq transfer 2021-10)
+LMCA,2013-01-11,New Liberty Media spinoff
+NCLH,2013-01-18,Norwegian Cruise Line IPO
+TMUS,2013-05-01,T-Mobile US (MetroPCS reverse merger)
+CDW,2013-06-27,CDW IPO
+VIP,2013-09-10,VimpelCom Nasdaq transfer (ADR on NYSE pre-2010; approx)
+AAL,2013-12-09,American Airlines Group (post-merger listing)
+JD,2014-05-22,JD.com IPO
+WBA,2014-12-31,Walgreens Boots Alliance ticker start
+PYPL,2015-07-06,PayPal spinoff (when-issued)
+KHC,2015-07-06,Kraft Heinz ticker start
+SHOP,2015-05-21,Shopify IPO (NYSE; Nasdaq transfer 2025)
+MTCH,2015-11-19,Match Group IPO
+TEAM,2015-12-10,Atlassian IPO
+CSX,2015-12-21,CSX Nasdaq transfer (NYSE pre; prices exist earlier)
+WLTW,2016-01-05,Willis Towers Watson merger ticker
+CCEP,2016-06-01,Coca-Cola Europacific (approx US listing)
+TTD,2016-09-21,The Trade Desk IPO
+OKTA,2017-04-07,Okta IPO
+MDB,2017-10-19,MongoDB IPO
+ZS,2018-03-16,Zscaler IPO
+DOCU,2018-04-27,DocuSign IPO
+PDD,2018-07-26,Pinduoduo IPO
+KDP,2018-07-09,Keurig Dr Pepper ticker start
+MRNA,2018-12-07,Moderna IPO
+ZM,2019-04-18,Zoom IPO
+CRWD,2019-06-12,CrowdStrike IPO
+DDOG,2019-09-19,Datadog IPO
+PTON,2019-09-26,Peloton IPO
+PLTR,2020-09-30,Palantir direct listing (NYSE; Nasdaq transfer 2022-11)
+ABNB,2020-12-10,Airbnb IPO
+DASH,2020-12-09,DoorDash IPO (NYSE; Nasdaq transfer 2023)
+APP,2021-04-15,AppLovin IPO
+LCID,2021-07-26,Lucid ticker start (post-SPAC)
+RKLB,2021-08-25,Rocket Lab ticker start (post-SPAC)
+GFS,2021-10-28,GlobalFoundries IPO
+RIVN,2021-11-10,Rivian IPO
+CEG,2022-01-19,Constellation Energy when-issued (spinoff 2022-02-02)
+WBD,2022-04-11,Warner Bros. Discovery ticker start
+GEHC,2023-01-04,GE HealthCare spinoff
+ARM,2023-09-14,Arm Holdings IPO
+ALAB,2024-03-20,Astera Labs IPO
+FER,2024-05-09,Ferrovial Nasdaq listing (approx)
+NBIS,2024-10-21,Nebius Nasdaq re-listing
+SNDK,2025-02-24,New Sandisk spinoff from WDC (approx)
+CRWV,2025-03-28,CoreWeave IPO
+SPCX,2026-06-12,SpaceX IPO

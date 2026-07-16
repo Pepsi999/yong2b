@@ -87,7 +87,9 @@
 - 2023-06-20: ADD ON / REMOVE RIVN
 - 2023-06-07: ADD GEHC / REMOVE FISV (확정)
 - 2024-11-18: ADD APP / REMOVE DLTR
-- 2012-11-12: ADD STX / REMOVE MWW (Seagate 복귀; Monster Worldwide NYSE 이전; 날짜 근사)
+- (삭제됨) STX/MWW 이벤트는 2008-11-10 발생으로 판명 — CP-1.1에서 원장에서 제거. STX는 2010년부터 연속 멤버, MWW는 윈도우 내 비멤버
+- 2012-05-30: ADD VIAB / REMOVE TEVA (Teva NYSE 이전; CP-1.1 추가)
+- 2012-12-12: ADD FB / REMOVE INFY (Infosys NYSE 이전; CP-1.1 추가)
 - 2017-02-07: ADD JBHT / REMOVE NXPI
 - 2026-04-20: ADD SNDK / REMOVE TEAM
 - 2026-06-22: ADD ALAB, CRWV, NBIS, RKLB, TER / REMOVE CHTR, CTSH, INSM, VRSK, ZS (신방법론 첫 분기 변경)

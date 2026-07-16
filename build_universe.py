@@ -148,9 +148,15 @@ def current_ticker_map(events: pd.DataFrame):
 
 SPOT_CHECKS = [
     # (날짜, 반드시 포함, 반드시 제외)
-    (date(2010, 6, 30), {"AAPL", "MSFT", "GOOG", "NWSA", "DELL", "YHOO", "RIMM", "ORCL", "BMC", "VOD", "MAT", "MWW"},
-     {"TSLA", "TXN", "MU", "NFLX", "AVGO", "REGN"}),
-    (date(2013, 9, 30), {"TSLA", "CHTR", "GMCR", "NFLX", "GOLD", "DELL", "KRFT", "FOXA"},
+    (date(2009, 12, 31), {"INFY", "TEVA", "STX", "AAPL", "GOOG", "DELL"},
+     {"FB", "VIAB", "MWW", "TSLA"}),
+    (date(2010, 6, 30), {"AAPL", "MSFT", "GOOG", "NWSA", "DELL", "YHOO", "RIMM", "ORCL", "BMC", "VOD", "MAT", "STX", "INFY", "TEVA"},
+     {"TSLA", "TXN", "MU", "NFLX", "AVGO", "REGN", "FB", "VIAB", "MWW"}),
+    (date(2012, 6, 30), {"VIAB", "TXN", "INFY", "CTRP"},
+     {"TEVA", "FB", "MWW"}),
+    (date(2012, 12, 31), {"FB", "VIAB", "ADI", "REGN", "WDC", "STX"},
+     {"INFY", "TEVA", "NFLX", "GMCR", "MRVL"}),
+    (date(2013, 9, 30), {"TSLA", "CHTR", "GMCR", "NFLX", "GOLD", "DELL", "KRFT", "FOXA", "FB"},
      {"MAR", "VIP", "ORCL", "BMC", "NWSA"}),
     (date(2015, 6, 30), {"KRFT", "WBA", "DTV", "BRCM", "ALTR", "CTRX", "SIAL"},
      {"EQIX", "KHC", "PYPL", "JD", "SWKS", "INCY"}),
