@@ -1,0 +1,320 @@
+effective_date,action,ticker,new_ticker,note,source
+2010-12-20,add,AKAM,,annual reconstitution 2010,PR
+2010-12-20,add,CTRP,,annual reconstitution 2010,PR
+2010-12-20,add,DLTR,,annual reconstitution 2010,PR
+2010-12-20,add,FFIV,,annual reconstitution 2010,PR
+2010-12-20,add,MU,,annual reconstitution 2010,PR
+2010-12-20,add,NFLX,,annual reconstitution 2010,PR
+2010-12-20,add,WFM,,annual reconstitution 2010,PR
+2010-12-20,remove,CTAS,,annual reconstitution 2010,PR
+2010-12-20,remove,DISH,,annual reconstitution 2010,PR
+2010-12-20,remove,FWLT,,annual reconstitution 2010,PR
+2010-12-20,remove,HOLX,,annual reconstitution 2010,PR
+2010-12-20,remove,JBHT,,annual reconstitution 2010,PR
+2010-12-20,remove,LOGI,,annual reconstitution 2010,PR
+2010-12-20,remove,PDCO,,annual reconstitution 2010,PR
+2011-04-04,add,ALXN,,replaced GENZ (Sanofi acquired Genzyme),PR
+2011-04-04,remove,GENZ,,acquired by Sanofi,PR
+2011-05-27,add,GMCR,,replaced MICC,secondary
+2011-05-27,remove,MICC,,Millicom voluntary Nasdaq delisting,secondary
+2011-07-15,add,SIRI,,replaced CEPH,secondary
+2011-07-15,remove,CEPH,,acquired by Teva,secondary
+2011-12-06,add,PRGO,,replaced JOYG,secondary
+2011-12-06,remove,JOYG,,Joy Global moved to NYSE,secondary
+2011-12-19,add,AVGO,,annual reconstitution 2011,PR
+2011-12-19,add,FOSL,,annual reconstitution 2011,PR
+2011-12-19,add,HANS,,annual reconstitution 2011 (Hansen Natural; later MNST),PR
+2011-12-19,add,NUAN,,annual reconstitution 2011,PR
+2011-12-19,add,GOLD,,annual reconstitution 2011 (Randgold Resources ADR),PR
+2011-12-19,remove,FLIR,,annual reconstitution 2011,PR
+2011-12-19,remove,ILMN,,annual reconstitution 2011,PR
+2011-12-19,remove,NIHD,,annual reconstitution 2011,PR
+2011-12-19,remove,QGEN,,annual reconstitution 2011,PR
+2011-12-19,remove,URBN,,annual reconstitution 2011,PR
+2012-01-05,rename,HANS,MNST,Hansen Natural renamed Monster Beverage (approx date),secondary
+2012-04-23,add,TXN,,replaced FSLR (TI moved listing to Nasdaq),PR
+2012-04-23,remove,FSLR,,replaced by TXN,PR
+2012-07-23,add,KFT,,replaced CTRP (Kraft Foods Inc),PR
+2012-07-23,remove,CTRP,,replaced by KFT,PR
+2012-10-01,rename,KFT,MDLZ,Kraft Foods Inc renamed Mondelez at KRFT spinoff,secondary
+2012-11-12,add,STX,,replaced MWW (Seagate returned; eff date approx Mon 2012-11-12),secondary
+2012-11-12,remove,MWW,,Monster Worldwide moved to NYSE,secondary
+2012-12-24,add,ADI,,annual reconstitution 2012,PR
+2012-12-24,add,CTRX,,annual reconstitution 2012 (Catamaran),PR
+2012-12-24,add,DISCA,,annual reconstitution 2012 (Discovery Communications),PR
+2012-12-24,add,EQIX,,annual reconstitution 2012,PR
+2012-12-24,add,LBTYA,,annual reconstitution 2012 (Liberty Global),PR
+2012-12-24,add,LMCA,,annual reconstitution 2012 (old Liberty Media),PR
+2012-12-24,add,REGN,,annual reconstitution 2012,PR
+2012-12-24,add,SBAC,,annual reconstitution 2012,PR
+2012-12-24,add,VRSK,,annual reconstitution 2012,PR
+2012-12-24,add,WDC,,annual reconstitution 2012,PR
+2012-12-24,remove,APOL,,annual reconstitution 2012,PR
+2012-12-24,remove,EA,,annual reconstitution 2012,PR
+2012-12-24,remove,FLEX,,annual reconstitution 2012,PR
+2012-12-24,remove,GMCR,,annual reconstitution 2012,PR
+2012-12-24,remove,LRCX,,annual reconstitution 2012,PR
+2012-12-24,remove,MRVL,,annual reconstitution 2012,PR
+2012-12-24,remove,NFLX,,annual reconstitution 2012,PR
+2012-12-24,remove,RIMM,,annual reconstitution 2012,PR
+2012-12-24,remove,VRSN,,annual reconstitution 2012,PR
+2012-12-24,remove,WCRX,,annual reconstitution 2012,PR
+2013-01-11,rename,LMCA,STRZA,old Liberty Media renamed Starz; new Liberty Media spun off,secondary
+2013-03-18,add,KRFT,,replaced STRZA (Kraft Foods Group),secondary
+2013-03-18,remove,STRZA,,replaced by KRFT,secondary
+2013-06-05,add,LMCA,,new Liberty Media replaced VMED,PR
+2013-06-05,remove,VMED,,Virgin Media acquired by Liberty Global,PR
+2013-06-06,add,NFLX,,replaced PRGO,PR
+2013-06-06,remove,PRGO,,Perrigo left Nasdaq (Elan deal / NYSE),PR
+2013-06-28,rename,NWSA,FOXA,News Corp split; 21st Century Fox kept membership (new News Corp not added),secondary
+2013-07-15,add,TSLA,,replaced ORCL,secondary
+2013-07-15,remove,ORCL,,Oracle moved to NYSE,secondary
+2013-07-25,add,CHTR,,replaced BMC,PR
+2013-07-25,remove,BMC,,BMC Software going private,PR
+2013-08-22,add,GMCR,,replaced LIFE,PR
+2013-08-22,remove,LIFE,,Life Technologies acquired by Thermo Fisher,PR
+2013-10-29,add,VIP,,replaced DELL (VimpelCom),secondary
+2013-10-29,remove,DELL,,Dell went private,secondary
+2013-11-18,add,MAR,,replaced GOLD,PR
+2013-11-18,remove,GOLD,,Randgold Resources removed,PR
+2013-12-23,add,DISH,,annual reconstitution 2013,PR
+2013-12-23,add,ILMN,,annual reconstitution 2013,PR
+2013-12-23,add,NXPI,,annual reconstitution 2013,PR
+2013-12-23,add,TSCO,,annual reconstitution 2013,PR
+2013-12-23,add,TRIP,,annual reconstitution 2013,PR
+2013-12-23,remove,XRAY,,annual reconstitution 2013,PR
+2013-12-23,remove,FOSL,,annual reconstitution 2013,PR
+2013-12-23,remove,MCHP,,annual reconstitution 2013,PR
+2013-12-23,remove,NUAN,,annual reconstitution 2013,PR
+2013-12-23,remove,SHLD,,annual reconstitution 2013,PR
+2014-04-03,rename,GOOG,GOOGL,Google class split; class A became GOOGL (primary class tracked),secondary
+2014-12-22,add,AAL,,annual reconstitution 2014,PR
+2014-12-22,add,EA,,annual reconstitution 2014,PR
+2014-12-22,add,LRCX,,annual reconstitution 2014,PR
+2014-12-22,remove,EXPE,,annual reconstitution 2014,PR
+2014-12-22,remove,FFIV,,annual reconstitution 2014,PR
+2014-12-22,remove,MXIM,,annual reconstitution 2014,PR
+2015-03-23,add,WBA,,replaced EQIX,PR
+2015-03-23,remove,EQIX,,REIT conversion,PR
+2015-07-06,rename,KRFT,KHC,Kraft-Heinz merger; Kraft Heinz listed on Nasdaq,secondary
+2015-07-27,add,BMRN,,replaced DTV,secondary
+2015-07-27,remove,DTV,,DirecTV acquired by AT&T,secondary
+2015-07-29,add,JD,,replaced CTRX,PR
+2015-07-29,remove,CTRX,,Catamaran acquired by UnitedHealth (removed 2015-07-24),PR
+2015-08-03,add,SWKS,,replaced SIAL,secondary
+2015-08-03,remove,SIAL,,Sigma-Aldrich acquired by Merck KGaA (removed 2015-07-31),secondary
+2015-10-07,add,INCY,,replaced ALTR,secondary
+2015-10-07,remove,ALTR,,Altera acquired by Intel,secondary
+2015-11-11,add,PYPL,,replaced BRCM,PR
+2015-11-11,remove,BRCM,,Broadcom Corp pending Avago acquisition,PR
+2015-12-21,add,CTRP,,annual reconstitution 2015,PR
+2015-12-21,add,ENDP,,annual reconstitution 2015,PR
+2015-12-21,add,EXPE,,annual reconstitution 2015,PR
+2015-12-21,add,MXIM,,annual reconstitution 2015,PR
+2015-12-21,add,NCLH,,annual reconstitution 2015,PR
+2015-12-21,add,TMUS,,annual reconstitution 2015,PR
+2015-12-21,add,ULTA,,annual reconstitution 2015,PR
+2015-12-21,remove,CHRW,,annual reconstitution 2015,PR
+2015-12-21,remove,EXPD,,annual reconstitution 2015,PR
+2015-12-21,remove,GRMN,,annual reconstitution 2015,PR
+2015-12-21,remove,GMCR,,annual reconstitution 2015 (JAB acquisition pending),PR
+2015-12-21,remove,SPLS,,annual reconstitution 2015,PR
+2015-12-21,remove,VIP,,annual reconstitution 2015,PR
+2015-12-21,remove,WYNN,,annual reconstitution 2015,PR
+2016-02-22,add,CSX,,replaced KLAC,PR
+2016-02-22,remove,KLAC,,pending Lam Research merger (later abandoned),PR
+2016-03-16,add,NTES,,replaced SNDK,secondary
+2016-03-16,remove,SNDK,,SanDisk acquired by Western Digital,secondary
+2016-06-20,add,XRAY,,DENTSPLY SIRONA replaced Liberty Media share classes,PR
+2016-06-20,remove,LMCA,,Liberty Media all classes removed (LMCA/LMCK/BATRA/BATRK),PR
+2016-07-18,add,MCHP,,replaced ENDP,secondary
+2016-07-18,remove,ENDP,,Endo International removed,secondary
+2016-10-19,add,SHPG,,replaced LLTC,PR
+2016-10-19,remove,LLTC,,Linear Technology pending ADI acquisition,PR
+2016-12-19,add,CTAS,,annual reconstitution 2016,PR
+2016-12-19,add,HAS,,annual reconstitution 2016,PR
+2016-12-19,add,HOLX,,annual reconstitution 2016,PR
+2016-12-19,add,KLAC,,annual reconstitution 2016 (re-added),PR
+2016-12-19,remove,BBBY,,annual reconstitution 2016,PR
+2016-12-19,remove,NTAP,,annual reconstitution 2016,PR
+2016-12-19,remove,SRCL,,annual reconstitution 2016,PR
+2016-12-19,remove,WFM,,annual reconstitution 2016,PR
+2017-02-07,add,JBHT,,replaced NXPI,PR
+2017-02-07,remove,NXPI,,pending Qualcomm acquisition (later abandoned),PR
+2017-03-20,add,IDXX,,replaced SBAC,PR
+2017-03-20,remove,SBAC,,REIT conversion,PR
+2017-04-24,add,WYNN,,replaced TRIP,PR
+2017-04-24,remove,TRIP,,replaced by WYNN,PR
+2017-06-19,add,MELI,,replaced YHOO,secondary
+2017-06-19,remove,YHOO,,Yahoo/Verizon deal (became Altaba),secondary
+2017-10-23,add,ALGN,,replaced MAT,PR
+2017-10-23,remove,MAT,,Mattel removed,PR
+2017-12-18,add,ASML,,annual reconstitution 2017,PR
+2017-12-18,add,CDNS,,annual reconstitution 2017,PR
+2017-12-18,add,SNPS,,annual reconstitution 2017,PR
+2017-12-18,add,TTWO,,annual reconstitution 2017,PR
+2017-12-18,add,WDAY,,annual reconstitution 2017,PR
+2017-12-18,remove,AKAM,,annual reconstitution 2017,PR
+2017-12-18,remove,DISCA,,annual reconstitution 2017 (DISCA+DISCK company-level),PR
+2017-12-18,remove,NCLH,,annual reconstitution 2017,PR
+2017-12-18,remove,TSCO,,annual reconstitution 2017,PR
+2017-12-18,remove,VIAB,,annual reconstitution 2017,PR
+2018-02-27,rename,PCLN,BKNG,Priceline renamed Booking Holdings,secondary
+2018-07-23,add,PEP,,replaced DISH,PR
+2018-07-23,remove,DISH,,replaced by PEP,PR
+2018-11-05,add,NXPI,,replaced CA (re-added after Qualcomm deal abandoned),PR
+2018-11-05,remove,CA,,CA Inc acquired by Broadcom,PR
+2018-11-19,add,XEL,,replaced XRAY,PR
+2018-11-19,remove,XRAY,,replaced by XEL,PR
+2018-12-24,add,AMD,,annual reconstitution 2018,PR
+2018-12-24,add,LULU,,annual reconstitution 2018,PR
+2018-12-24,add,NTAP,,annual reconstitution 2018,PR
+2018-12-24,add,UAL,,annual reconstitution 2018,PR
+2018-12-24,add,VRSN,,annual reconstitution 2018,PR
+2018-12-24,add,WLTW,,annual reconstitution 2018,PR
+2018-12-24,remove,ESRX,,annual reconstitution 2018 (Cigna acquisition),PR
+2018-12-24,remove,HOLX,,annual reconstitution 2018,PR
+2018-12-24,remove,QRTEA,,annual reconstitution 2018,PR
+2018-12-24,remove,SHPG,,annual reconstitution 2018 (Takeda acquisition),PR
+2018-12-24,remove,STX,,annual reconstitution 2018,PR
+2018-12-24,remove,VOD,,annual reconstitution 2018,PR
+2019-11-04,rename,SYMC,NLOK,Symantec renamed NortonLifeLock after Broadcom enterprise deal,secondary
+2019-11-05,rename,CTRP,TCOM,Ctrip renamed Trip.com Group (approx date),secondary
+2019-11-21,add,EXC,,replaced CELG,PR
+2019-11-21,remove,CELG,,Celgene acquired by Bristol-Myers Squibb,PR
+2019-12-23,add,ANSS,,annual reconstitution 2019,PR
+2019-12-23,add,CDW,,annual reconstitution 2019,PR
+2019-12-23,add,CPRT,,annual reconstitution 2019,PR
+2019-12-23,add,CSGP,,annual reconstitution 2019,PR
+2019-12-23,add,SGEN,,annual reconstitution 2019,PR
+2019-12-23,add,SPLK,,annual reconstitution 2019,PR
+2019-12-23,remove,HAS,,annual reconstitution 2019,PR
+2019-12-23,remove,HSIC,,annual reconstitution 2019,PR
+2019-12-23,remove,JBHT,,annual reconstitution 2019,PR
+2019-12-23,remove,MYL,,annual reconstitution 2019,PR
+2019-12-23,remove,NLOK,,annual reconstitution 2019,PR
+2019-12-23,remove,WYNN,,annual reconstitution 2019,PR
+2020-04-20,add,DXCM,,replaced AAL,PR
+2020-04-20,remove,AAL,,American Airlines removed,PR
+2020-04-30,add,ZM,,replaced WLTW,PR
+2020-04-30,remove,WLTW,,Willis Towers Watson removed,PR
+2020-06-22,add,DOCU,,replaced UAL,PR
+2020-06-22,remove,UAL,,United Airlines removed,PR
+2020-07-20,add,MRNA,,replaced CSGP,PR
+2020-07-20,remove,CSGP,,CoStar removed,PR
+2020-08-24,add,PDD,,replaced NTAP,PR
+2020-08-24,remove,NTAP,,NetApp removed,PR
+2020-10-19,add,KDP,,replaced WDC,PR
+2020-10-19,remove,WDC,,Western Digital removed,PR
+2020-12-21,add,AEP,,annual reconstitution 2020,PR
+2020-12-21,add,MRVL,,annual reconstitution 2020,PR
+2020-12-21,add,MTCH,,annual reconstitution 2020,PR
+2020-12-21,add,OKTA,,annual reconstitution 2020,PR
+2020-12-21,add,PTON,,annual reconstitution 2020,PR
+2020-12-21,add,TEAM,,annual reconstitution 2020,PR
+2020-12-21,remove,BMRN,,annual reconstitution 2020,PR
+2020-12-21,remove,CTXS,,annual reconstitution 2020,PR
+2020-12-21,remove,EXPE,,annual reconstitution 2020,PR
+2020-12-21,remove,LBTYA,,annual reconstitution 2020 (Liberty Global all classes),PR
+2020-12-21,remove,TTWO,,annual reconstitution 2020,PR
+2020-12-21,remove,ULTA,,annual reconstitution 2020,PR
+2021-07-21,add,HON,,replaced ALXN,PR
+2021-07-21,remove,ALXN,,Alexion acquired by AstraZeneca,PR
+2021-08-26,add,CRWD,,replaced MXIM,PR
+2021-08-26,remove,MXIM,,Maxim acquired by Analog Devices,PR
+2021-12-20,add,ABNB,,annual reconstitution 2021,PR
+2021-12-20,add,DDOG,,annual reconstitution 2021,PR
+2021-12-20,add,FTNT,,annual reconstitution 2021,PR
+2021-12-20,add,LCID,,annual reconstitution 2021,PR
+2021-12-20,add,PANW,,annual reconstitution 2021,PR
+2021-12-20,add,ZS,,annual reconstitution 2021,PR
+2021-12-20,remove,CDW,,annual reconstitution 2021,PR
+2021-12-20,remove,CERN,,annual reconstitution 2021,PR
+2021-12-20,remove,CHKP,,annual reconstitution 2021,PR
+2021-12-20,remove,FOXA,,annual reconstitution 2021 (FOX+FOXA company-level),PR
+2021-12-20,remove,INCY,,annual reconstitution 2021,PR
+2021-12-20,remove,TCOM,,annual reconstitution 2021,PR
+2022-01-24,add,ODFL,,replaced PTON,PR
+2022-01-24,remove,PTON,,Peloton removed,PR
+2022-02-02,add,CEG,,Constellation Energy added after Exelon spinoff (unpaired),PR
+2022-02-22,add,AZN,,replaced XLNX,PR
+2022-02-22,remove,XLNX,,Xilinx acquired by AMD,PR
+2022-06-09,rename,FB,META,Meta Platforms ticker change,secondary
+2022-11-21,add,ENPH,,replaced OKTA,PR
+2022-11-21,remove,OKTA,,Okta removed,PR
+2022-12-19,add,CSGP,,annual reconstitution 2022,PR
+2022-12-19,add,RIVN,,annual reconstitution 2022,PR
+2022-12-19,add,WBD,,annual reconstitution 2022 (fresh add; Discovery had been removed Dec 2017),PR
+2022-12-19,add,GFS,,annual reconstitution 2022,PR
+2022-12-19,add,BKR,,annual reconstitution 2022,PR
+2022-12-19,add,FANG,,annual reconstitution 2022,PR
+2022-12-19,remove,VRSN,,annual reconstitution 2022,PR
+2022-12-19,remove,SWKS,,annual reconstitution 2022,PR
+2022-12-19,remove,SPLK,,annual reconstitution 2022,PR
+2022-12-19,remove,BIDU,,annual reconstitution 2022,PR
+2022-12-19,remove,MTCH,,annual reconstitution 2022,PR
+2022-12-19,remove,DOCU,,annual reconstitution 2022,PR
+2022-12-19,remove,NTES,,annual reconstitution 2022,PR
+2023-06-07,add,GEHC,,replaced FISV,PR
+2023-06-07,remove,FISV,,Fiserv moved to NYSE,PR
+2023-06-20,add,ON,,replaced RIVN,PR
+2023-06-20,remove,RIVN,,Rivian removed,PR
+2023-07-17,add,TTD,,replaced ATVI,PR
+2023-07-17,remove,ATVI,,Activision Blizzard pending Microsoft acquisition,PR
+2023-12-18,add,CCEP,,annual reconstitution 2023,PR
+2023-12-18,add,CDW,,annual reconstitution 2023,PR
+2023-12-18,add,DASH,,annual reconstitution 2023,PR
+2023-12-18,add,MDB,,annual reconstitution 2023,PR
+2023-12-18,add,ROP,,annual reconstitution 2023,PR
+2023-12-18,add,SPLK,,annual reconstitution 2023,PR
+2023-12-18,add,TTWO,,annual reconstitution 2023 update (replaced SGEN),PR
+2023-12-18,remove,ALGN,,annual reconstitution 2023,PR
+2023-12-18,remove,EBAY,,annual reconstitution 2023,PR
+2023-12-18,remove,ENPH,,annual reconstitution 2023,PR
+2023-12-18,remove,JD,,annual reconstitution 2023,PR
+2023-12-18,remove,LCID,,annual reconstitution 2023,PR
+2023-12-18,remove,ZM,,annual reconstitution 2023,PR
+2023-12-18,remove,SGEN,,Seagen acquired by Pfizer (reconstitution update),PR
+2024-03-18,add,LIN,,replaced SPLK (Linde first joined after Nasdaq listing transfer),PR
+2024-03-18,remove,SPLK,,Splunk acquired by Cisco,PR
+2024-06-24,add,ARM,,replaced SIRI,PR
+2024-06-24,remove,SIRI,,Sirius XM removed,PR
+2024-07-22,add,SMCI,,replaced WBA,PR
+2024-07-22,remove,WBA,,Walgreens removed,PR
+2024-11-18,add,APP,,replaced DLTR,PR
+2024-11-18,remove,DLTR,,Dollar Tree removed,PR
+2024-12-23,add,PLTR,,annual reconstitution 2024,PR
+2024-12-23,add,MSTR,,annual reconstitution 2024,PR
+2024-12-23,add,AXON,,annual reconstitution 2024,PR
+2024-12-23,remove,ILMN,,annual reconstitution 2024,PR
+2024-12-23,remove,SMCI,,annual reconstitution 2024,PR
+2024-12-23,remove,MRNA,,annual reconstitution 2024,PR
+2025-05-19,add,SHOP,,replaced MDB,PR
+2025-05-19,remove,MDB,,MongoDB removed,PR
+2025-07-28,add,TRI,,replaced ANSS,PR
+2025-07-28,remove,ANSS,,Ansys acquired by Synopsys,PR
+2025-12-22,add,ALNY,,annual reconstitution 2025,PR
+2025-12-22,add,FER,,annual reconstitution 2025,PR
+2025-12-22,add,INSM,,annual reconstitution 2025,PR
+2025-12-22,add,MPWR,,annual reconstitution 2025,PR
+2025-12-22,add,STX,,annual reconstitution 2025,PR
+2025-12-22,add,WDC,,annual reconstitution 2025,PR
+2025-12-22,remove,BIIB,,annual reconstitution 2025,PR
+2025-12-22,remove,CDW,,annual reconstitution 2025,PR
+2025-12-22,remove,GFS,,annual reconstitution 2025,PR
+2025-12-22,remove,LULU,,annual reconstitution 2025,PR
+2025-12-22,remove,ON,,annual reconstitution 2025,PR
+2025-12-22,remove,TTD,,annual reconstitution 2025,PR
+2026-04-20,add,SNDK,,replaced TEAM (new Sandisk; WDC spinoff 2025),PR
+2026-04-20,remove,TEAM,,Atlassian removed,PR
+2026-06-22,add,ALAB,,June 2026 quarterly changes,PR
+2026-06-22,add,CRWV,,June 2026 quarterly changes,PR
+2026-06-22,add,NBIS,,June 2026 quarterly changes,PR
+2026-06-22,add,RKLB,,June 2026 quarterly changes,PR
+2026-06-22,add,TER,,June 2026 quarterly changes,PR
+2026-06-22,remove,CHTR,,June 2026 quarterly changes,PR
+2026-06-22,remove,CTSH,,June 2026 quarterly changes,PR
+2026-06-22,remove,INSM,,June 2026 quarterly changes,PR
+2026-06-22,remove,VRSK,,June 2026 quarterly changes,PR
+2026-06-22,remove,ZS,,June 2026 quarterly changes,PR
+2026-07-07,add,SPCX,,SpaceX fast-entry addition (unpaired; index temporarily above 100),PR

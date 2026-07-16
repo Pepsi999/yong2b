@@ -1,0 +1,101 @@
+ticker,company
+AAPL,Apple
+MSFT,Microsoft
+GOOGL,Alphabet (primary class; GOOG excluded)
+AMZN,Amazon
+TSLA,Tesla
+FB,Meta Platforms (renamed META 2022-06)
+NVDA,NVIDIA
+AVGO,Broadcom
+INTC,Intel
+AMD,Advanced Micro Devices
+QCOM,Qualcomm
+TXN,Texas Instruments
+ADI,Analog Devices
+MU,Micron Technology
+AMAT,Applied Materials
+LRCX,Lam Research
+KLAC,KLA
+ASML,ASML Holding
+NXPI,NXP Semiconductors
+XLNX,Xilinx
+SWKS,Skyworks Solutions
+MRVL,Marvell Technology
+MCHP,Microchip Technology
+ADBE,Adobe
+INTU,Intuit
+NFLX,Netflix
+PYPL,PayPal
+BKNG,Booking Holdings
+EBAY,eBay
+MELI,MercadoLibre
+JD,JD.com
+PDD,Pinduoduo
+BIDU,Baidu
+NTES,NetEase
+EA,Electronic Arts
+ATVI,Activision Blizzard
+ZM,Zoom Video
+DOCU,DocuSign
+OKTA,Okta
+TEAM,Atlassian
+WDAY,Workday
+SNPS,Synopsys
+CDNS,Cadence Design
+ANSS,Ansys
+SPLK,Splunk
+VRSN,VeriSign
+VRSK,Verisk Analytics
+CTSH,Cognizant
+FISV,Fiserv
+ADP,Automatic Data Processing
+PAYX,Paychex
+FTNT,Fortinet
+PANW,Palo Alto Networks
+ZS,Zscaler
+CRWD,CrowdStrike
+DDOG,Datadog
+ABNB,Airbnb
+LCID,Lucid Group
+MTCH,Match Group
+SIRI,Sirius XM
+CMCSA,Comcast (primary class)
+CHTR,Charter Communications
+CSCO,Cisco Systems
+ADSK,Autodesk
+COST,Costco
+SBUX,Starbucks
+PEP,PepsiCo
+MDLZ,Mondelez
+KDP,Keurig Dr Pepper
+KHC,Kraft Heinz
+MNST,Monster Beverage
+WBA,Walgreens Boots Alliance
+ROST,Ross Stores
+ORLY,O'Reilly Automotive
+DLTR,Dollar Tree
+LULU,Lululemon
+MAR,Marriott International
+CPRT,Copart
+FAST,Fastenal
+PCAR,PACCAR
+CTAS,Cintas
+CSX,CSX Corp
+PTON,Peloton
+HON,Honeywell
+TMUS,T-Mobile US
+AMGN,Amgen
+GILD,Gilead Sciences
+VRTX,Vertex Pharmaceuticals
+REGN,Regeneron
+BIIB,Biogen
+ILMN,Illumina
+MRNA,Moderna
+DXCM,DexCom
+IDXX,IDEXX Laboratories
+ALGN,Align Technology
+SGEN,Seagen
+ISRG,Intuitive Surgical
+AEP,American Electric Power
+EXC,Exelon
+XEL,Xcel Energy
