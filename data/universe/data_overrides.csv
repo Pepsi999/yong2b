@@ -1,0 +1,13 @@
+ticker,yf_alias,valid_from,valid_to,reason
+GOLD,,9999-01-01,9999-01-01,"Randgold ADR (2011-13 멤버십). 현 yahoo GOLD=Barrick → 전 구간 사용 금지 (다른 법인 가격 오염 방지)"
+NWSA,,9999-01-01,9999-01-01,"2010~2013-06 구 News Corp 시대. 현 yahoo NWSA=신 News Corp(2013-06 상장) → 사용 금지"
+DELL,,9999-01-01,9999-01-01,"2010~2013-10 구 Dell 시대. 현 yahoo DELL=Dell Technologies(2018 재상장) → 사용 금지"
+SNDK,,2025-02-24,,"구 SanDisk(~2016)와 신규 Sandisk(2025~) 동일 티커. 2025-02-24 이후만 유효 (구 시대는 결측 처리)"
+RIMM,BB,,,"BlackBerry로 개명(2013). yahoo BB가 RIMM 시대 전체 이력 보유"
+WLTW,WTW,,,"Willis Towers Watson → WTW 개명(2022). yahoo WTW가 전체 이력 보유"
+DISCA,WBD,,2022-04-08,"Discovery A → WBD 승계. yahoo WBD가 DISCA 시대 이력 보유 (2022-04 이전 구간만 멤버십 시대에 해당)"
+VIAB,PARA,,,"Viacom B → ViacomCBS → Paramount(PARA) 승계. yahoo PARA가 VIAB 시대 이력 보유"
+FISV,FI,,,"Fiserv → FI 개명(2023). yahoo FI가 전체 이력 보유"
+NLOK,GEN,,,"NortonLifeLock → Gen Digital(GEN) 개명(2022). yahoo GEN이 SYMC/NLOK 시대 이력 보유"
+VIP,VEON,,,"VimpelCom → VEON 개명(2017). yahoo VEON ADR이 VIP 시대 이력 보유 (커버리지 실측 확인 필요)"
+KRFT,,2012-10-01,2015-07-03,"Kraft Foods Group 시대(2013-03~2015-07 멤버십). yahoo KRFT 상장폐지로 결측 예상 — 실측 확인"
